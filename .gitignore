@@ -4,10 +4,11 @@ gtk-3.0
 dolphinrc
 kitty
 pavucontrol.ini
-Qtprojects.conf
+QtProjects.conf
 filetypesrc
 mimeapps.list
 pulse
-baloofileinfomationrc
+baloofileinformationrc
 kde.org
 session
+

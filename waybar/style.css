@@ -25,6 +25,9 @@ window#waybar.empty{
     border-radius: 0  0 15px 15px;
 }
 /*
+window#waybar.solo{
+    background-color: #171717;
+}
 #workspaces {
     background-color: rgba(24,24,24,.5);
     border-radius: 10px;
@@ -32,7 +35,9 @@ window#waybar.empty{
 */
 
 #window {
-    color: #c2a067;
+    font-style: italic;
+    font-weight: 600;
+    color: #171717;
 }
 
 #workspaces button {
@@ -44,7 +49,7 @@ window#waybar.empty{
 }
 
 #workspaces button.active{
-    color: #c2a067;
+    color: #171717;
     font-weight: bold;
 }
 
@@ -57,7 +62,7 @@ window#waybar.empty{
 #network,
 #pulseaudio {
     padding: 0 10px;
-    margin: 4px;
+    margin: 3px;
     background-color: rgba(24,24,24,.5);
     border-radius: 15px;
 }
